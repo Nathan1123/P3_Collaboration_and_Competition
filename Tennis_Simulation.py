@@ -33,7 +33,7 @@ times_update = 1        # How many times to learn each update
 buffer_size = int(1e6)  # Replay buffer size
 batch_size = 256        # Minibatch size
 
-n_episodes=1500  # Total number of episodes
+n_episodes=2000  # Total number of episodes
 max_t=1000       # Number of actions per episode
 score_window=100 # Number of episodes to average results
 score_thresh=0.5 # Minimum value to end learning at
